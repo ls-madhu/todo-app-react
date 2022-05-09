@@ -1,0 +1,49 @@
+.todo-modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000077;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-modal__content {
+  background-color: #ecedf6;
+  color: #585858;
+  width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.todo-modal__content h2 {
+  margin-bottom: 20px;
+}
+
+.todo-modal__content label,
+.todo-modal__content input,
+.todo-modal__content select {
+  display: block;
+  width: 100%;
+}
+
+.todo-modal__content label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.todo-modal__content input,
+.todo-modal__content select {
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: none;
+}
+
+.todo-modal__actions {
+  display: flex;
+  gap: 20px;
+}
